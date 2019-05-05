@@ -1,0 +1,17 @@
+name: Bootstrap Languages
+description: Provides a Bootstrap dropdown button to switch between available languages.
+package: Multilingual
+
+type: module
+# core: 8.x
+
+dependencies:
+  - drupal:language
+
+configure: block.admin_display
+
+# Information added by Drupal.org packaging script on 2018-02-02
+version: '8.x-1.x-dev'
+core: '8.x'
+project: 'bootstrap_languages'
+datestamp: 1517568783
